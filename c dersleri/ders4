@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main() {
+    int number = -5;
+
+    // if-else
+    if (number > 0) {
+        printf("Sayı pozitiftir.\n");
+    } else if (number < 0) {
+        printf("Sayı negatiftir.\n");
+    } else {
+        printf("Sayı sıfırdır.\n");
+    }
+
+    // switch-case
+    char grade = 'B';
+    switch (grade) {
+        case 'A':
+            printf("Mükemmel!\n");
+            break;
+        case 'B':
+            printf("İyi İş!\n");
+            break;
+        case 'C':
+            printf("Geçtin.\n");
+            break;
+        default:
+            printf("Geçersiz not.\n");
+    }
+
+    return 0;
+}

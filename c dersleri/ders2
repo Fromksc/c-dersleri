@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int age = 25; // Tamsayı
+    float height = 1.75; // Ondalıklı sayı
+    char grade = 'A'; // Tek karakter
+    double pi = 3.14159; // Daha hassas ondalıklı sayı
+
+    printf("Yaş: %d\n", age);
+    printf("Boy: %.2f metre\n", height);
+    printf("Not: %c\n", grade);
+    printf("Pi: %.5lf\n", pi);
+
+    return 0;
+}
+
